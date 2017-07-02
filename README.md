@@ -9,9 +9,9 @@ This scripts (get_thumbnail.py) can get thumbnails of many image files (psd file
 
 # Requirements
 
-* python3.x.x (recommend anaconda3-4.2.0)
-* pandas
-* [box-python-sdk] (https://github.com/box/box-python-sdk) 
+*  python3.x.x (recommend Python 3.5.2, or Anaconda3-4.2.0 (conda create for Python 3.5.2))
+*  pandas
+*  [box-python-sdk] (https://github.com/box/box-python-sdk) 
 
 # How to make enviroment
 Recommend to make enviroment with [pyenv](https://github.com/pyenv/pyenv)
@@ -56,13 +56,13 @@ This scripts (get_thumbnail.py) can get thumbnails (output are jpg files) of man
 You can get thumbnails of .psd files in one directroy and you should set folder_id, developer token, min size height or width, output directroy.
 
 ```
-python get_thumbnail.py oneFolder -i [folder_id] -t [developere token] -s [size (for example:360)] --outdir [output dir]
+python get_thumbnail.py oneFolder -i [folder_id] -t [developer token] -s [size (for example:360)] --outdir [output dir]
 ```
 
 You can get thumbnails of .psd files in some directroies and you should set parent_folder_id, developer token, min size height or width, output directroy.
 
 ```
-python get_thumbnail.py manyFolders -i [parent_folder_id] -t [developere token] -s [size (for example:360)] --outdir [output dir]
+python get_thumbnail.py manyFolders -i [parent_folder_id] -t [developer token] -s [size (for example:360)] --outdir [output dir]
 ```
 
 
