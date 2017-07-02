@@ -11,7 +11,7 @@ This scripts (get_thumbnail.py) can get thumbnails of many image files (psd file
 
 *  python3.x.x (recommend Python 3.5.2, or Anaconda3-4.2.0 (conda create for Python 3.5.2))
 *  pandas
-*  [box-python-sdk] (https://github.com/box/box-python-sdk) 
+*  [box-python-sdk](https://github.com/box/box-python-sdk) 
 
 # How to make enviroment
 Recommend to make enviroment with [pyenv](https://github.com/pyenv/pyenv)
