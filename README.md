@@ -33,7 +33,7 @@ pip install boxsdk
 if you don't use anaconda, you need to install pandas
 
 ```
-# pip install pandas
+pip install pandas
 ```
 
 if you finished making enviroment, type shown blow command
