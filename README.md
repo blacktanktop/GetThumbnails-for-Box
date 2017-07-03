@@ -24,7 +24,16 @@ pyenv install anaconda3-4.2.0
 pyenv local anaconda3-4.2.0
 # make different name anaconda3 enviroment to use Python 3.5.2
 conda create -n "ILLUSTRATE" python=3.5.2 anaconda
+# set pyenv enviroment for the current directory
 pyenv local anaconda3-4.2.0/envs/ILLUSTRATE
+# install boxsdk
+pip install boxsdk
+```
+---
+if you don't use anaconda, you need to install pandas
+
+```
+# pip install pandas
 ```
 
 if you finished making enviroment, type shown blow command
