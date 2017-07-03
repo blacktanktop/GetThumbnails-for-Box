@@ -19,24 +19,25 @@ Recommend to make enviroment with [pyenv](https://github.com/pyenv/pyenv)
 ```
 git clone https://github.com/takatsugukosugi/GetThumbnails-for-Box.git
 cd GetThumbnails-for-Box
-# make anaconda3 enviroment
+# Make anaconda3 enviroment
 pyenv install anaconda3-4.2.0
 pyenv local anaconda3-4.2.0
-# make different name anaconda3 enviroment to use Python 3.5.2
+# Make different name anaconda3 enviroment to use Python 3.5.2
 conda create -n "ILLUSTRATE" python=3.5.2 anaconda
-# set pyenv enviroment for the current directory
+# Set pyenv enviroment for the current directory
 pyenv local anaconda3-4.2.0/envs/ILLUSTRATE
-# install boxsdk
+# Install boxsdk
 pip install boxsdk
 ```
 ---
-if you don't use anaconda, you need to install pandas
+If you don't use anaconda, you need to install pandas
 
 ```
 pip install pandas
 ```
+---
 
-if you finished making enviroment, type shown blow command
+If you finished making enviroment, type shown blow command
 
 ```
 python get_thumbnail.py -h
@@ -58,6 +59,16 @@ optional arguments:
   -h, --help            show this help message and exit
   --version             show program's version number and exit
 ```
+---
+Second, to get client id and client secret, create a developer account and application in [Box](https://developer.box.com/v2.0/docs/configuring-box-platform)
+Third, generate and copy developer token in your application (as same as client id and client secret)
+Finally, add your client id and your client secret in ./BOX/constants.py and use developer token as argument
+```
+# Paste the client id, client secret
+client_id = " " #Paste your client_id
+client_secret = " " #Paste your client_secret
+```
+
 # Usage
 
 This scripts (get_thumbnail.py) can get thumbnails (output are jpg files) of many image files (psd files) in Box with Box API
