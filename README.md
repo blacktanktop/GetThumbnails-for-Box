@@ -60,9 +60,9 @@ optional arguments:
   --version             show program's version number and exit
 ```
 ---
-Second, to get client id and client secret, create a developer account and application in [Box](https://developer.box.com/v2.0/docs/configuring-box-platform)
-Third, generate and copy developer token in your application (as same as client id and client secret)
-Finally, add your client id and your client secret in ./BOX/constants.py and use developer token as argument
+Second, to get client id and client secret, create a developer account and application in [Box](https://developer.box.com/v2.0/docs/configuring-box-platform)  
+Third, generate and copy developer token in your application (as same as client id and client secret)  
+Finally, add your client id and your client secret in ./BOX/constants.py and use developer token as argument  
 ```
 # Paste the client id, client secret
 client_id = " " #Paste your client_id
